@@ -1,0 +1,42 @@
+body {
+  background: #f5f5f5;
+  font-family: sans-serif, Helvetica;
+}
+.login {
+  height: 100vh;
+}
+
+.login-container {
+  margin-top: 40%;
+}
+.options-container {
+  margin-top: 30px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.options ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+}
+.options ul li {
+  display: block;
+  border-radius: 5px;
+  border: 1px solid rgba(215, 215, 215, 0.95);
+  padding:40px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.options ul li.active {
+  border: 1px solid rgba(30, 38, 202, 0.95);
+}
+.forms-container {
+  margin-top: 20px;
+  min-height: 500px;
+  max-height: 500px;
+  overflow-y: auto;
+}
